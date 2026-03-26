@@ -1,10 +1,10 @@
-# Electrical Fraud Detection System ⚡️🔍
+# Electrical Fraud Detection System 
 
 An AI-powered web application designed to identify electricity usage anomalies and potential fraud using a stacked ensemble machine learning model.
 
-## 📌 Project Overview
+##  Project Overview
 Electrical Fraud Detection leverages historical consumption data (current and voltage across three phases) to detect irregularities such as meter tampering or illegal connections. The system uses a **Stacked Ensemble Model** (Random Forest + Gradient Boosting + Meta-Regressor) to ensure high-accuracy predictions.
-## 🛠 Key Features
+##  Key Features
 
 * **Stacked Ensemble Learning:** Utilizes a multi-layer architecture (Random Forest and Gradient Boosting) to minimize bias and variance, ensuring robust detection.
 * **Real-time Prediction Engine:** A lightweight web interface allows for manual data entry with sub-second inference results.
@@ -13,7 +13,7 @@ Electrical Fraud Detection leverages historical consumption data (current and vo
 
 ---
 
-## 📊 Data & Input Features
+##  Data & Input Features
 
 The model processes **6 core electrical parameters** to determine the likelihood of fraud:
 
@@ -24,7 +24,7 @@ The model processes **6 core electrical parameters** to determine the likelihood
 
 ---
 
-## 🤖 Technology Stack
+##  Technology Stack
 
 ### **Backend & API**
 * **FastAPI:** High-performance web framework for building the prediction points.
@@ -44,7 +44,7 @@ The model processes **6 core electrical parameters** to determine the likelihood
 - uvicorn api.main:app --reload
   
   ---
-## 📂 Project Structure
+##  Project Structure
 ```text
 ELECTRICAL FRAUD DETECTION/
 ├── api/
