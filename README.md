@@ -38,6 +38,11 @@ The model processes **6 core electrical parameters** to determine the likelihood
 ### **Frontend**
 * **HTML5 & CSS3:** Modern, responsive UI embedded directly within FastAPI responses for a seamless user experience without external dependencies.
  ---
+## Installation and run
+- pip install -r requirements.txt
+- python src/train_models.py
+- uvicorn api.main:app --reload
+  ---
 ## 📂 Project Structure
 ```text
 ELECTRICAL FRAUD DETECTION/
