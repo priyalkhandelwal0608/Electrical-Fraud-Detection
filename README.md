@@ -1,20 +1,22 @@
+# Electrical Fraud Detection System ⚡️🔍
 
-# Electrical Fraud Detection
+An AI-powered web application designed to identify electricity usage anomalies and potential fraud using a stacked ensemble machine learning model.
 
+## 📌 Project Overview
+Electrical Fraud Detection leverages historical consumption data (current and voltage across three phases) to detect irregularities such as meter tampering or illegal connections. The system uses a **Stacked Ensemble Model** (Random Forest + Gradient Boosting + Meta-Regressor) to ensure high-accuracy predictions.
 
-## Overview
-
-**Electrical Fraud Detection** is an AI/ML-powered project designed to identify electricity usage anomalies and potential fraud in consumption data. By analyzing historical usage patterns, this system can detect irregularities such as meter tampering, illegal connections, or sudden unexplained drops in consumption. This tool is useful for utility companies to reduce losses and ensure fair billing.
-
----
-
-## Features
-
-- Detect anomalies in electrical usage data using machine learning models.
-- Visualize consumption patterns and fraud indicators.
-- Easy integration with utility datasets (CSV/JSON formats).
-- Modular structure: API, data preprocessing, model training, and predictions.
-
----
-
-
+## 📂 Project Structure
+```text
+ELECTRICAL FRAUD DETECTION/
+├── api/
+│   └── main.py          # FastAPI application & web interface
+├── data/
+│   └── data.csv         # Training/reference datasets
+├── models/
+│   └── ensemble.pkl     # Trained serialized model
+├── src/
+│   ├── preprocess.py    # Data cleaning & feature engineering
+│   ├── train_models.py  # Model training script
+│   └── ensemble.py      # Ensemble logic
+├── requirements.txt     # Project dependencies
+└── README.md            # Documentation
