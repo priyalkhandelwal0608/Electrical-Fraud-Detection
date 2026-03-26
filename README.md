@@ -42,6 +42,7 @@ The model processes **6 core electrical parameters** to determine the likelihood
 - pip install -r requirements.txt
 - python src/train_models.py
 - uvicorn api.main:app --reload
+  
   ---
 ## 📂 Project Structure
 ```text
